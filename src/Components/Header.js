@@ -6,7 +6,7 @@ import FlagIcon from '@material-ui/icons/Flag';
 import  SubscriptionsOutlinedIcon from '@material-ui/icons/SubscriptionsOutlined';
 import  StorefrontOutlinedIcon from '@material-ui/icons/StorefrontOutlined';
 import  SupervisedUserCircleIcon from '@material-ui/icons/SupervisedUserCircle';
-import { Avatar, Iconbutton }from '@material-ui/core'
+import { Avatar, IconButton }from '@material-ui/core'
 import AddIcon from '@material-ui/icons/Add'
 import ForumIcon from '@material-ui/icons/Forum'
 import NotificationsActive from '@material-ui/icons/NotificationsActive'
@@ -48,13 +48,22 @@ const Header = () => {
               <Avatar />
               <h4>Fabba</h4>
           </div>
-          <AddIcon />
 
-          <ForumIcon />
+          <IconButton>
+            <AddIcon />
+          </IconButton>
 
-          <NotificationsActive />
+          <IconButton>
+           <ForumIcon />
+          </IconButton>
 
-          <ExpandMoreIcon />
+          <IconButton>
+            <NotificationsActive />
+          </IconButton>
+
+          <IconButton>
+            <ExpandMoreIcon />
+          </IconButton>
 
       </div>
     </div>  
