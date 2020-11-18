@@ -9,13 +9,11 @@ import StorefrontIcon from '@material-ui/icons/Storefront'
 import VideoLibraryIcon from '@material-ui/icons/VideoLibrary'
 import ExpandMoreOutlined from '@material-ui/icons/ExpandMoreOutlined'
 
-
-
 const Sidebar = () => {
     
     return (
-        <div>
-            <SidebarRow src="" title="Fabba" />
+        <div className='sidebar' >
+            <SidebarRow src="https://seeklogo.net/wp-content/uploads/2012/11/liverbir-vector-logo-400x400.png" title="Fabba" />
             <SidebarRow Icon={LocalHospitalIcon} title='COVID-19 Information Center' />
             <SidebarRow Icon={EmojiFlagsIcon} title='Pages' /> 
             <SidebarRow Icon={PeopleIcon} title='Friends' />  
