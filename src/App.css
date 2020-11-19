@@ -1,0 +1,7 @@
+.app {
+  background-color: azure;
+}
+
+.app__body {
+  display: flex;
+}
