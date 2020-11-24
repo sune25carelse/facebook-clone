@@ -1,6 +1,6 @@
 .story {
   position: relative;
-  background-position: center;
+  background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
   width: 120px;

@@ -14,6 +14,11 @@ const Post = ({ profilePic, imgName, username, timestamp, message }) => {
 
                 </div>
             </div>
+
+            <div className="post__bottm">
+              <p>{message}</p>
+            </div>
+            
             <div className="post__options">
                     <div className="post__option">
                       <ThumbUp />
