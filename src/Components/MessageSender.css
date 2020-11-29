@@ -1,5 +1,7 @@
 .messageSender {
   display: flex;
+  justify-content: center;
+  align-content: center;
   margin-top: 30px;
   flex-direction: column;
   background-color: white;
